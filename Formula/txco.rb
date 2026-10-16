@@ -1,28 +1,28 @@
 class Txco < Formula
   desc "Programmable event chassis for composing operations with txcl"
   homepage "https://github.com/loremlabs/thanks-computer"
-  version "0.2.47"
+  version "0.2.48"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/loremlabs/thanks-computer/releases/download/v0.2.47/txco_0.2.47_darwin_arm64.tar.gz"
-      sha256 "cf4138e11f4f4f65c384091aecb1b20c4202d0390a259f7034049e0457a46b43"
+      url "https://github.com/loremlabs/thanks-computer/releases/download/v0.2.48/txco_0.2.48_darwin_arm64.tar.gz"
+      sha256 "532e02fa59de7da63e43f8460720169d4eaac5a2385d61227df0af23743f6f20"
     end
     on_intel do
-      url "https://github.com/loremlabs/thanks-computer/releases/download/v0.2.47/txco_0.2.47_darwin_amd64.tar.gz"
-      sha256 "e64bef4c77a29d03b1b87378ea1def8d8add8a2df84ba545e10baeed05c06923"
+      url "https://github.com/loremlabs/thanks-computer/releases/download/v0.2.48/txco_0.2.48_darwin_amd64.tar.gz"
+      sha256 "0dd02a75792c6b9a54971e6b4259768b810ac853ca8735d06b6a8704fa6f3d49"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/loremlabs/thanks-computer/releases/download/v0.2.47/txco_0.2.47_linux_arm64.tar.gz"
-      sha256 "4403d82287e6d7513d7bc52764f8e1257ce18f9294b89fa6a0a853a01e000c88"
+      url "https://github.com/loremlabs/thanks-computer/releases/download/v0.2.48/txco_0.2.48_linux_arm64.tar.gz"
+      sha256 "a637d95b35f313e30fddf287d7058fbe10d25ce15045f713b9e8e7378dc9221e"
     end
     on_intel do
-      url "https://github.com/loremlabs/thanks-computer/releases/download/v0.2.47/txco_0.2.47_linux_amd64.tar.gz"
-      sha256 "cd56f00c2139528d8315ee87d427859cfe367ba2d6be597abcaf58efa0075b14"
+      url "https://github.com/loremlabs/thanks-computer/releases/download/v0.2.48/txco_0.2.48_linux_amd64.tar.gz"
+      sha256 "a6c07fbb21ff313fa7520ebc9788b7f12cc7dee28f2be6c472dac8a10d30b2b1"
     end
   end
 
