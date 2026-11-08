@@ -6,9 +6,13 @@ programmable event chassis for composing operations with txcl.
 ## Install
 
 ```sh
-brew tap loremlabs/txco
-brew install txco
+brew install loremlabs/txco/txco
 ```
+
+The fully qualified name taps this repo and trusts just the `txco` formula in
+one step. Homebrew 6.0 and later require third-party taps to be trusted, so a
+separate `brew tap` followed by `brew install txco` no longer works on a fresh
+machine (see <https://docs.brew.sh/Tap-Trust>).
 
 Then:
 
